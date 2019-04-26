@@ -342,6 +342,13 @@ DESKTOP-APB1HCJ% sudo usermod -aG docker $USER
 
 ##### 连接到其它机器上的 docker daemon
 
+至于，为什么要通过连接到其它机器，而不是连接到自己机器，windows下安装的 docker形成的docker daemon? 
+因为，如果在windows下安装docker，要启动hyper-v,而启动了hyper-v,则不能启动virtualbox。这样，就是面临 virtualbox与hyper-v的二选一问题。
+因为我自己是更倾向于 virtualbox + vagrant 模式，所以，我选择了放弃hyper-v，所以，就放弃了使用windows下的docker daemon的方式。
+那么自然地，可以，在 virtualbox + vagrant + docker 模式下，启动一个vm，安装上docker, 连接上去使用docker就行了。
+
+https://www.cnblogs.com/xiaoliangge/p/9134585.html
+
 前置条件，有其它机器上，有开启 docker daemon 服务提供成服务，供外部机器使用。
 所以，这一步，最好在 完成安装 virtualbox, vagrant 之后。
 
@@ -351,7 +358,6 @@ DESKTOP-APB1HCJ% echo "export DOCKER_HOST=tcp://192.168.168.164:2376" >> ~/.zshr
 DESKTOP-APB1HCJ% docker ps
 DESKTOP-APB1HCJ% sudo docker run hello-world
 ```
-
 
 
 #### python2
