@@ -34,7 +34,6 @@ wsl 下安装
 ## step ##
 
 ## win10 ##
-
 #### winrar ####
 
 #### 百度网盘 ####
@@ -49,6 +48,7 @@ wsl 下安装
 
 依赖于 shadowsocks 外网，登录chrome帐户
 
+#### wsl ####
 #### qq, wechat ####
 
 #### 腾讯电脑管家，及其下的软件管家 ####
@@ -69,6 +69,8 @@ wsl 下安装
 https://www.xunlei.com/
 
 #### virtualbox ####
+
+安装完成后,第一时间,修改 管理/全局设置/默认虚拟电脑位置 为电脑的非C盘文件夹, 如 D:\ProgramFiles\VirtualBoxVMs
 #### vagrant ####
 ##### windows下切换vagrant_home目录 #####
 
@@ -220,6 +222,7 @@ git checkout -- .zshrc
 git status
 ```
 
+#### autojump ####
 
 
 
@@ -237,16 +240,20 @@ Startup/Tasks 下设置
 
 [ubuntu下修改用户的默认目录](https://blog.csdn.net/mifan88/article/details/7583016)（配置文件 /etc/passwd 中）
 
+##### 设置 shell 启动时的文件夹路径 #####
+
+Startup/Tasks/ 选中 tasks, 选择 Add: Startup directory （在右下角范围找）
+
 #### vscode ####
 
 已通过 软件管家 安装
 
-##### 配置所有文本，以 LF 作为行尾结束符 #####
+#### 配置所有文本，以 LF 作为行尾结束符 ####
 
 `File/Preferences/Settings` 搜索 `CRLF` ，选择 `User Settings/Text Editor/Files: Eol` 替换成 `LF` 
 
 
-##### 配置 wsl 作为 Terminal #####
+#### 配置 wsl 作为 Terminal ####
 
 参考：https://www.v2ex.com/t/461903
 
@@ -290,7 +297,7 @@ C:\Program Files\soft\emacs-26.1-x86_64\bin\python.exe
 C:\Users\a>
 ```
 
-##### snippets #####
+#### snippets ####
 
 ```bash
 git submodule update --init --recursive
@@ -308,6 +315,22 @@ https://desktop.github.com/
 
 
 ## wsl ##
+
+#### zsh ####
+
+##### wsl-shell 默认启动shell #####
+
+wsl-shell 启动项中 bash.exe 参数加上 `-c zsh` 使得 zsh 作为wsl
+
+##### Change default shell #####
+
+```bash
+chsh -s `which zsh`
+```
+
+检验标准为：
+
+`cat /etc/passwd` 用户的 最后一项，是 zsh 与否
 
 #### docker ####
 
@@ -421,6 +444,12 @@ Exception: dst exists: '/mnt/c/Users/a/anaconda2wslubuntu16/share/terminfo/e/ete
 
 <!-- 安装 anaconda3 和 anaconda2 时，一路默认设置，不要修改 -->
 
+
+#### pyenv, pyenv-virtualenv
+
+- https://github.com/pyenv/pyenv#installation
+- https://eiu.app/post/python-pyenv-install-with-mac/
+
 #### nvm, nodejs ####
 
 依赖于 curl, zsh
@@ -446,5 +475,34 @@ sudo apt-get install gnupg2 -y
 gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 curl -sSL https://get.rvm.io | bash -s stable --rails
 # 或者 curl -L https://get.rvm.io | bash -s stable
+echo 'source ~/.rvm/scripts/rvm' >> ~/.zshrc
+# 或者 echo 'source ~/.rvm/scripts/rvm' >> ~/.bashrc
 ```
  
+
+#### emacs, spacemacs ####
+
+为什么还要在 wsl 中安装 spacemacs?
+因为我想在spacemacs中体验一下zsh，这样，就可以直接把eshell代替掉。
+在windows10下的spacemacs，好像找不到 wsl的bash.exe
+或者谁能做到 
+
+- windows10 + spacemacs + zsh(wsl)
+- windows10 + spacemacs + bash(wsl)
+
+这样的组合呢？谁知道的，请让我知道。
+
+https://eiuapp.github.io/cheatsheets/
+
+```
+C:\Users\a>where python
+C:\Program Files\soft\emacs-26.1-x86_64\bin\python.exe
+
+C:\Users\a>
+```
+
+##### snippets #####
+
+```bash
+git submodule update --init --recursive
+```
