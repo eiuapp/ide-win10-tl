@@ -1,0 +1,700 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>软件安装顺序 · Win10 IDE Handbook - Win10 IDE 实践指南 by eiuapp</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="eiuapp">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-ghcolors.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-lightbox/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="../" />
+    
+
+    
+        <link rel="shortcut icon" href='../favicon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../favicon.ico' type="image/x-icon">
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"eiuapp/ide-win10-tl","types":["star"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://eiuapp.github.io/ide-win10-tl" target="_blank" class="custom-link">Win10 IDE Handbook</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">序言</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">install</li>
+        
+        
+    
+        <li class="chapter active" data-level="2.1" data-path="software-install.html">
+            
+                <a href="software-install.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    软件安装顺序
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">常见问题</li>
+        
+        
+    
+
+    
+        
+        <li class="header">未来</li>
+        
+        
+    
+
+    
+        
+        <li class="header">相关资源</li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >软件安装顺序</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><p>&#x8F6F;&#x4EF6;&#x5B89;&#x88C5;&#x6B21;&#x5E8F;</p>
+<p>windows &#x4E0B;&#x5B89;&#x88C5; </p>
+<ol>
+<li>winrar</li>
+<li>&#x767E;&#x5EA6;&#x7F51;&#x76D8; </li>
+<li>shadowsocks</li>
+<li>chrome</li>
+<li>git for windows</li>
+<li>qq, wechat</li>
+<li>&#x817E;&#x8BAF;&#x5B89;&#x5168;&#x7BA1;&#x5BB6;&#xFF0C;&#x53CA;&#x5176;&#x4E0B;&#x7684;&#x8F6F;&#x4EF6;&#x7BA1;&#x5BB6;&#x4E2D;&#x5B89;&#x88C5;<ul>
+<li>notepad</li>
+<li>vs code</li>
+</ul>
+</li>
+<li>emacs, spacemacs</li>
+<li>wsl</li>
+<li>runz</li>
+</ol>
+<p>wsl &#x4E0B;&#x5B89;&#x88C5;</p>
+<ol>
+<li>zsh</li>
+<li>anaconda2, anaconda3</li>
+<li>nvm, nodejs</li>
+<li>gitbook</li>
+<li>gvm, golang</li>
+</ol>
+<h2 id="env">env</h2>
+<ul>
+<li>os: win10<ul>
+<li>username: a</li>
+</ul>
+</li>
+<li>wsl: ubuntu16.04<ul>
+<li>username: u</li>
+</ul>
+</li>
+</ul>
+<h2 id="step">step</h2>
+<h2 id="win10">win10</h2>
+<h4 id="winrar">winrar</h4>
+<h4 id="&#x767E;&#x5EA6;&#x7F51;&#x76D8;">&#x767E;&#x5EA6;&#x7F51;&#x76D8;</h4>
+<h4 id="shadowsocks">shadowsocks</h4>
+<p>&#x53BB; github.com &#x4E2D;&#x641C;&#x7D22; shadowsocks &#x5E76;&#x5BF9;&#x5E94;&#x4E0B;&#x8F7D;</p>
+<p>&#x5982;&#x679C;&#x60A8;&#x6709;&#x5728;&#x767E;&#x5EA6;&#x7F51;&#x76D8;&#x4E2D;&#xFF0C;&#x5219;&#x5148;&#x4E0B;&#x8F7D;&#x4F7F;&#x7528;&#x767E;&#x5EA6;&#x7F51;&#x76D8;</p>
+<h4 id="chrome">chrome</h4>
+<p>&#x4F9D;&#x8D56;&#x4E8E; shadowsocks &#x5916;&#x7F51;&#xFF0C;&#x767B;&#x5F55;chrome&#x5E10;&#x6237;</p>
+<h4 id="wsl">wsl</h4>
+<h4 id="qq-wechat">qq, wechat</h4>
+<h4 id="&#x817E;&#x8BAF;&#x7535;&#x8111;&#x7BA1;&#x5BB6;&#xFF0C;&#x53CA;&#x5176;&#x4E0B;&#x7684;&#x8F6F;&#x4EF6;&#x7BA1;&#x5BB6;">&#x817E;&#x8BAF;&#x7535;&#x8111;&#x7BA1;&#x5BB6;&#xFF0C;&#x53CA;&#x5176;&#x4E0B;&#x7684;&#x8F6F;&#x4EF6;&#x7BA1;&#x5BB6;</h4>
+<h4 id="&#x8F6F;&#x4EF6;&#x7BA1;&#x5BB6;&#x4E2D;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;">&#x8F6F;&#x4EF6;&#x7BA1;&#x5BB6;&#x4E2D;&#x5B89;&#x88C5;&#x8F6F;&#x4EF6;</h4>
+<ul>
+<li>notepad</li>
+<li>vs code</li>
+<li>Beyond Compare</li>
+</ul>
+<h4 id="git-for-windows">git for windows</h4>
+<p>&#x5B89;&#x88C5;&#x540E;&#xFF0C;&#x5C31;&#x5E26;&#x6709; curl</p>
+<h4 id="&#x8FC5;&#x96F7;">&#x8FC5;&#x96F7;</h4>
+<p><a href="https://www.xunlei.com/" target="_blank">https://www.xunlei.com/</a></p>
+<h4 id="virtualbox">virtualbox</h4>
+<p>&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;,&#x7B2C;&#x4E00;&#x65F6;&#x95F4;,&#x4FEE;&#x6539; &#x7BA1;&#x7406;/&#x5168;&#x5C40;&#x8BBE;&#x7F6E;/&#x9ED8;&#x8BA4;&#x865A;&#x62DF;&#x7535;&#x8111;&#x4F4D;&#x7F6E; &#x4E3A;&#x7535;&#x8111;&#x7684;&#x975E;C&#x76D8;&#x6587;&#x4EF6;&#x5939;, &#x5982; D:\ProgramFiles\VirtualBoxVMs</p>
+<p>&#x8BB0;&#x4F4F;,&#x6240;&#x6709;&#x7684;vm&#x9700;&#x8981;&#x7528;VAGRANT&#x7BA1;&#x7406;&#x54DF;</p>
+<h4 id="vagrant">vagrant</h4>
+<h5 id="windows&#x4E0B;&#x5207;&#x6362;vagranthome&#x76EE;&#x5F55;">windows&#x4E0B;&#x5207;&#x6362;vagrant_home&#x76EE;&#x5F55;</h5>
+<p><a href="https://eiuapp.github.io/vagrant-handbook/docs/change-vagrant_home-directory-windows.html" target="_blank">https://eiuapp.github.io/vagrant-handbook/docs/change-vagrant_home-directory-windows.html</a></p>
+<h5 id="&#x641C;&#x7D22;-box">&#x641C;&#x7D22; box</h5>
+<p><a href="https://app.vagrantup.com/boxes/search" target="_blank">https://app.vagrantup.com/boxes/search</a></p>
+<h4 id="xshell">xshell</h4>
+<h2 id="wsl">wsl</h2>
+<h4 id="&#x4FEE;&#x6539;-&#x955C;&#x50CF;&#x6E90;">&#x4FEE;&#x6539; &#x955C;&#x50CF;&#x6E90;</h4>
+<p><a href="https://blog.csdn.net/china_jeffery/article/details/79715799" target="_blank">https://blog.csdn.net/china_jeffery/article/details/79715799</a></p>
+<pre class="language-"><code>sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup
+sudo vi /etc/apt/sources.list
+sudo apt-get update
+</code></pre><h4 id="&#x628A;&#x9ED8;&#x8BA4;&#x7528;&#x6237;&#x7684;home&#x4FEE;&#x6539;&#x6210;-cusersusername">&#x628A;&#x9ED8;&#x8BA4;&#x7528;&#x6237;&#x7684;HOME&#x4FEE;&#x6539;&#x6210; C:\Users\Username</h4>
+<p><a href="https://blog.csdn.net/mifan88/article/details/7583016" target="_blank">ubuntu&#x4E0B;&#x4FEE;&#x6539;&#x7528;&#x6237;&#x7684;&#x9ED8;&#x8BA4;&#x76EE;&#x5F55;</a>&#xFF08;&#x914D;&#x7F6E;&#x6587;&#x4EF6; /etc/passwd &#x4E2D;&#xFF09;</p>
+<pre class="language-"><code>u@DESKTOP-APB1HCJ:~$ cd
+u@DESKTOP-APB1HCJ:~$ pwd
+/mnt/c/Users/a
+u@DESKTOP-APB1HCJ:~$
+</code></pre><h4 id="&#x628A;&#x4E2A;&#x4EBA;-dotfiles-&#x914D;&#x7F6E;&#x653E;&#x5165;">&#x628A;&#x4E2A;&#x4EBA; dotfiles &#x914D;&#x7F6E;&#x653E;&#x5165;</h4>
+<h4 id="&#x751F;&#x6210;&#x65B0;&#x7684;-&#x516C;&#x79C1;&#x79D8;&#x94A5;">&#x751F;&#x6210;&#x65B0;&#x7684; &#x516C;&#x79C1;&#x79D8;&#x94A5;</h4>
+<p>cd ~</p>
+<h4 id="ssh-&#x6587;&#x4EF6;&#x6743;&#x9650;-&#x914D;&#x7F6E;">.ssh &#x6587;&#x4EF6;&#x6743;&#x9650; &#x914D;&#x7F6E;</h4>
+<p>&#x5982;&#x679C;&#x4E0D;&#x914D;&#x7F6E;&#xFF0C;&#x4F1A;&#x662F;</p>
+<pre class="language-"><code>u@DESKTOP-APB1HCJ:~$ ls -l ~/.ssh/
+total 8
+-rwxrwxrwx 1 u u 1823 Apr 11 15:52 id_rsa
+-rwxrwxrwx 1 u u  399 Apr 11 15:52 id_rsa.pub
+-rwxrwxrwx 1 u u 2184 Apr 12 14:02 known_hosts
+u@DESKTOP-APB1HCJ:~$
+</code></pre><p>&#x6B64;&#x65F6;&#xFF0C;&#x5373;&#x4F7F;&#x4F60;&#x628A;&#x8FD9;&#x4E2A;&#x516C;&#x94A5;&#x653E;&#x5165;&#x4E86;github&#x4E2D;&#x7684;ssh_keys&#x4E2D;&#xFF0C;&#x4E5F;&#x4F1A;&#x62A5;&#x4E0B;&#x9762;&#x9519;&#x8BEF;&#x3002;</p>
+<pre class="language-"><code>u@DESKTOP-APB1HCJ:~$ git clone git@github.com:eiuapp/tl-lvchuang-java-sql.git
+Cloning into &apos;tl-lvchuang-java-sql&apos;...
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0777 for &apos;/mnt/c/Users/a/.ssh/id_rsa&apos; are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key &quot;/mnt/c/Users/a/.ssh/id_rsa&quot;: bad permissions
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+u@DESKTOP-APB1HCJ:~$
+</code></pre><p>&#x603B;&#x5171;&#x8981;&#x8D70;2&#x6B65;:</p>
+<ul>
+<li>WSL&#x5F00;&#x542F;chmod&#x529F;&#x80FD;</li>
+<li>&#x89E3;&#x51B3; id_rsa &#x6743;&#x9650;&#x4E0D;&#x591F;</li>
+</ul>
+<h5 id="wsl&#x5F00;&#x542F;chmod&#x529F;&#x80FD;">WSL&#x5F00;&#x542F;chmod&#x529F;&#x80FD;</h5>
+<ul>
+<li><a href="https://blog.pupt.net/wsl-enable-chmod.html" target="_blank">https://blog.pupt.net/wsl-enable-chmod.html</a></li>
+<li><a href="https://blog.csdn.net/c13232906050/article/details/85274433" target="_blank">https://blog.csdn.net/c13232906050/article/details/85274433</a></li>
+</ul>
+<p>&#x4F7F;&#x7528;WSL&#x7EC8;&#x7AEF;SSH&#x767B;&#x5F55;VPS&#x7684;&#x65F6;&#x5019;&#x62A5;&#x9519;&#x8BF4;&#x79C1;&#x94A5;&#x6743;&#x9650;&#x592A;&#x5BBD;&#x677E;&#xFF0C;&#x6267;&#x884C;chmod 600 ~/.ssh&#x4E0D;&#x7BA1;&#x7528;&#x3002;</p>
+<pre class="language-"><code>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+WARNING: UNPROTECTED PRIVATE KEY FILE! 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+Permissions 0777 for &apos;~/.ssh/id_rsa&apos; are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored. Load key &quot;~/.ssh/id_rsa&quot;: bad permissions
+Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+</code></pre><p>&#x4E0A;&#x7F51;&#x641C;&#x7D22;&#x4E86;&#x4E00;&#x4E0B;&#xFF0C;&#x53D1;&#x73B0;WSL&#x9ED8;&#x8BA4;&#x4E0D;&#x5F00;&#x542F;&#x8BE5;&#x529F;&#x80FD;&#x3002;</p>
+<pre class="language-"><code>vim /etc/wsl.conf
+</code></pre><p>&#x52A0;&#x5165;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;&#x5E76;&#x4FDD;&#x5B58;&#xFF0C;&#x91CD;&#x542F;WSL&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;chmod&#x547D;&#x4EE4;&#x4E86;</p>
+<pre class="language-"><code>[automount]
+options = &quot;metadata&quot;
+</code></pre><p>&#x5173;&#x95ED;&#x6240;&#x6709;bash&#xFF0C;&#x91CD;&#x65B0;&#x6253;&#x5F00;&#x5373;&#x53EF;</p>
+<h5 id="&#x89E3;&#x51B3;-idrsa-&#x6743;&#x9650;&#x4E0D;&#x591F;">&#x89E3;&#x51B3; id_rsa &#x6743;&#x9650;&#x4E0D;&#x591F;</h5>
+<p>&#x89E3;&#x51B3;&#x65B9;&#x6848; </p>
+<pre class="language-"><code>chmod 755 ~/.ssh/ 
+chmod 600 ~/.ssh/id_rsa ~/.ssh/id_rsa.pub 
+chmod 644 ~/.ssh/known_hosts
+</code></pre><p>&#x53C2;&#x8003;&#xFF1A;</p>
+<ul>
+<li><a href="http://www.cnblogs.com/jacker1979/p/4547472.html" target="_blank">http://www.cnblogs.com/jacker1979/p/4547472.html</a></li>
+</ul>
+<h4 id="zsh">zsh</h4>
+<p><a href="https://www.jianshu.com/p/9a5c4cb0452d" target="_blank">https://www.jianshu.com/p/9a5c4cb0452d</a></p>
+<p>&#x4F9D;&#x8D56;&#x4E8E; curl</p>
+<pre class="language-"><code>sudo apt install zsh -y
+zsh --version
+sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;
+</code></pre><p>&#x56E0;&#x4E3A;&#x6211;&#x81EA;&#x5DF1;&#x7684; dotfiles &#x914D;&#x7F6E;&#xFF0C;&#x5DF2;&#x7ECF;&#x8BBE;&#x7F6E;&#x597D;&#x4E86; .zshrc &#x6587;&#x4EF6;&#xFF0C;&#x6240;&#x4EE5;&#xFF0C;&#x8FD9;&#x65F6;&#x7684;&#x5B89;&#x88C5;&#x4F1A;&#x8986;&#x76D6;&#x6211;&#x81EA;&#x5DF1;&#x7684; .zshrc &#x6587;&#x4EF6;&#xFF0C;&#x6240;&#x4EE5;&#xFF0C;&#x8FD8;&#x539F;&#x4E00;&#x4E0B;&#x3002;</p>
+<pre class="language-"><code>git status
+cp .zshrc .zshrc.origin.bak
+git checkout -- .zshrc
+git status
+</code></pre><h4 id="autojump">autojump</h4>
+<h2 id="windows">windows</h2>
+<h4 id="cmder">cmder</h4>
+<h5 id="&#x8BBE;&#x7F6E;&#x9ED8;&#x8BA4;&#x542F;&#x52A8;shell-&#x4E3A;-wsl-shell">&#x8BBE;&#x7F6E;&#x9ED8;&#x8BA4;&#x542F;&#x52A8;shell &#x4E3A; wsl-shell</h5>
+<p>Startup/Tasks &#x4E0B;&#x8BBE;&#x7F6E; </p>
+<h5 id="&#x8BBE;&#x7F6E;-wsl-shell-&#x7684;&#x9ED8;&#x8BA4;&#x542F;&#x52A8;&#x76EE;&#x5F55;">&#x8BBE;&#x7F6E; wsl-shell &#x7684;&#x9ED8;&#x8BA4;&#x542F;&#x52A8;&#x76EE;&#x5F55;</h5>
+<p><a href="https://blog.csdn.net/mifan88/article/details/7583016" target="_blank">ubuntu&#x4E0B;&#x4FEE;&#x6539;&#x7528;&#x6237;&#x7684;&#x9ED8;&#x8BA4;&#x76EE;&#x5F55;</a>&#xFF08;&#x914D;&#x7F6E;&#x6587;&#x4EF6; /etc/passwd &#x4E2D;&#xFF09;</p>
+<h5 id="&#x8BBE;&#x7F6E;-shell-&#x542F;&#x52A8;&#x65F6;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x8DEF;&#x5F84;">&#x8BBE;&#x7F6E; shell &#x542F;&#x52A8;&#x65F6;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x8DEF;&#x5F84;</h5>
+<p>Startup/Tasks/ &#x9009;&#x4E2D; tasks, &#x9009;&#x62E9; Add: Startup directory &#xFF08;&#x5728;&#x53F3;&#x4E0B;&#x89D2;&#x8303;&#x56F4;&#x627E;&#xFF09;</p>
+<h4 id="vscode">vscode</h4>
+<p>&#x5DF2;&#x901A;&#x8FC7; &#x8F6F;&#x4EF6;&#x7BA1;&#x5BB6; &#x5B89;&#x88C5;</p>
+<h4 id="&#x914D;&#x7F6E;&#x6240;&#x6709;&#x6587;&#x672C;&#xFF0C;&#x4EE5;-lf-&#x4F5C;&#x4E3A;&#x884C;&#x5C3E;&#x7ED3;&#x675F;&#x7B26;">&#x914D;&#x7F6E;&#x6240;&#x6709;&#x6587;&#x672C;&#xFF0C;&#x4EE5; LF &#x4F5C;&#x4E3A;&#x884C;&#x5C3E;&#x7ED3;&#x675F;&#x7B26;</h4>
+<p><code>File/Preferences/Settings</code> &#x641C;&#x7D22; <code>CRLF</code> &#xFF0C;&#x9009;&#x62E9; <code>User Settings/Text Editor/Files: Eol</code> &#x66FF;&#x6362;&#x6210; <code>LF</code> </p>
+<h4 id="&#x914D;&#x7F6E;-wsl-&#x4F5C;&#x4E3A;-terminal">&#x914D;&#x7F6E; wsl &#x4F5C;&#x4E3A; Terminal</h4>
+<p>&#x53C2;&#x8003;&#xFF1A;<a href="https://www.v2ex.com/t/461903" target="_blank">https://www.v2ex.com/t/461903</a></p>
+<p><code>File/Preferences/Settings</code> &#x641C;&#x7D22; <code>shell</code> &#xFF0C;&#x9009;&#x62E9; <code>User Settings/</code> &#x627E;&#x5230; <code>Terminal &#x203A; Integrated &#x203A; Shell: Windows</code></p>
+<p>&#x628A;&#x6846;&#x4E2D;&#x7684;</p>
+<pre class="language-"><code>C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+</code></pre><p>&#x4FEE;&#x6539;&#x6210;</p>
+<pre class="language-"><code>C:\Windows\System32\wsl.exe
+</code></pre><p>&#x9A8C;&#x8BC1;&#xFF1A;</p>
+<p><code>View/Terminal</code> &#x6253;&#x5F00;&#x5373;&#x53EF;&#x3002;</p>
+<h4 id="anaconda2-anaconda3">anaconda2, anaconda3</h4>
+<p>&#x4F7F;&#x7528; &#x6E05;&#x534E;&#x955C;&#x50CF; &#x4E0B;&#x8F7D;</p>
+<p>&#x5B89;&#x88C5; anaconda3 &#x548C; anaconda2 &#x65F6;&#xFF0C;&#x4E00;&#x8DEF;&#x9ED8;&#x8BA4;&#x8BBE;&#x7F6E;&#xFF0C;&#x4E0D;&#x8981;&#x4FEE;&#x6539;</p>
+<h4 id="emacs-spacemacs">emacs, spacemacs</h4>
+<p><a href="https://eiuapp.github.io/post/emacs-install-with-win10/" target="_blank">https://eiuapp.github.io/post/emacs-install-with-win10/</a></p>
+<p><a href="https://eiuapp.github.io/post/spacemacs-install-with-win10/" target="_blank">https://eiuapp.github.io/post/spacemacs-install-with-win10/</a></p>
+<p>&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x4F1A;&#x81EA;&#x52A8;&#x5B89;&#x88C5;&#x4E86;&#x4E00;&#x4E2A;python</p>
+<pre class="language-"><code>C:\Users\a&gt;where python
+C:\Program Files\soft\emacs-26.1-x86_64\bin\python.exe
+
+C:\Users\a&gt;
+</code></pre><h4 id="snippets">snippets</h4>
+<pre class="language-"><code class="lang-bash"><span class="token function">git</span> submodule update --init --recursive
+</code></pre>
+<h4 id="runz">runz</h4>
+<h4 id="github-cli">github cli</h4>
+<p><a href="https://desktop.github.com/" target="_blank">https://desktop.github.com/</a></p>
+<h2 id="wsl">wsl</h2>
+<h4 id="zsh">zsh</h4>
+<h5 id="wsl-shell-&#x9ED8;&#x8BA4;&#x542F;&#x52A8;shell">wsl-shell &#x9ED8;&#x8BA4;&#x542F;&#x52A8;shell</h5>
+<p>wsl-shell &#x542F;&#x52A8;&#x9879;&#x4E2D; bash.exe &#x53C2;&#x6570;&#x52A0;&#x4E0A; <code>-c zsh</code> &#x4F7F;&#x5F97; zsh &#x4F5C;&#x4E3A;wsl</p>
+<h5 id="change-default-shell">Change default shell</h5>
+<pre class="language-"><code class="lang-bash">chsh -s <span class="token variable"><span class="token variable">`</span><span class="token function">which</span> zsh<span class="token variable">`</span></span>
+</code></pre>
+<p>&#x68C0;&#x9A8C;&#x6807;&#x51C6;&#x4E3A;&#xFF1A;</p>
+<p><code>cat /etc/passwd</code> &#x7528;&#x6237;&#x7684; &#x6700;&#x540E;&#x4E00;&#x9879;&#xFF0C;&#x662F; zsh &#x4E0E;&#x5426;</p>
+<h4 id="docker">docker</h4>
+<h5 id="install">install</h5>
+<p><a href="https://docs.docker.com/install/linux/docker-ce/ubuntu/" target="_blank">https://docs.docker.com/install/linux/docker-ce/ubuntu/</a></p>
+<h5 id="&#x5982;&#x4F55;&#x4F7F;&#x7528;docker&#x52A0;&#x901F;&#x5668;">&#x5982;&#x4F55;&#x4F7F;&#x7528;Docker&#x52A0;&#x901F;&#x5668;</h5>
+<p>&#x9488;&#x5BF9;Docker&#x5BA2;&#x6237;&#x7AEF;&#x7248;&#x672C;&#x5927;&#x4E8E;1.10&#x7684;&#x7528;&#x6237;
+&#x60A8;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4FEE;&#x6539;daemon&#x914D;&#x7F6E;&#x6587;&#x4EF6;/etc/docker/daemon.json&#x6765;&#x4F7F;&#x7528;&#x52A0;&#x901F;&#x5668;&#xFF1A;</p>
+<pre class="language-"><code>sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json &lt;&lt;-&apos;EOF&apos;
+{  
+    &quot;registry-mirrors&quot;: [&quot;https://ce0d6wdn2yph.mirror.aliyuncs.com&quot;]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+</code></pre><h5 id="&#x7528;&#x6237;&#x52A0;&#x5165;docker&#x7EC4;">&#x7528;&#x6237;&#x52A0;&#x5165;docker&#x7EC4;</h5>
+<pre class="language-"><code class="lang-bash">DESKTOP-APB1HCJ% <span class="token keyword">echo</span> <span class="token variable">$USER</span>
+DESKTOP-APB1HCJ% <span class="token function">sudo</span> <span class="token function">usermod</span> -aG docker <span class="token variable">$USER</span>
+</code></pre>
+<h5 id="&#x8FDE;&#x63A5;&#x5230;&#x5176;&#x5B83;&#x673A;&#x5668;&#x4E0A;&#x7684;-docker-daemon">&#x8FDE;&#x63A5;&#x5230;&#x5176;&#x5B83;&#x673A;&#x5668;&#x4E0A;&#x7684; docker daemon</h5>
+<p>&#x81F3;&#x4E8E;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x901A;&#x8FC7;&#x8FDE;&#x63A5;&#x5230;&#x5176;&#x5B83;&#x673A;&#x5668;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x8FDE;&#x63A5;&#x5230;&#x81EA;&#x5DF1;&#x673A;&#x5668;&#xFF0C;windows&#x4E0B;&#x5B89;&#x88C5;&#x7684; docker&#x5F62;&#x6210;&#x7684;docker daemon? 
+&#x56E0;&#x4E3A;&#xFF0C;&#x5982;&#x679C;&#x5728;windows&#x4E0B;&#x5B89;&#x88C5;docker&#xFF0C;&#x8981;&#x542F;&#x52A8;hyper-v,&#x800C;&#x542F;&#x52A8;&#x4E86;hyper-v,&#x5219;&#x4E0D;&#x80FD;&#x542F;&#x52A8;virtualbox&#x3002;&#x8FD9;&#x6837;&#xFF0C;&#x5C31;&#x662F;&#x9762;&#x4E34; virtualbox&#x4E0E;hyper-v&#x7684;&#x4E8C;&#x9009;&#x4E00;&#x95EE;&#x9898;&#x3002;
+&#x56E0;&#x4E3A;&#x6211;&#x81EA;&#x5DF1;&#x662F;&#x66F4;&#x503E;&#x5411;&#x4E8E; virtualbox + vagrant &#x6A21;&#x5F0F;&#xFF0C;&#x6240;&#x4EE5;&#xFF0C;&#x6211;&#x9009;&#x62E9;&#x4E86;&#x653E;&#x5F03;hyper-v&#xFF0C;&#x6240;&#x4EE5;&#xFF0C;&#x5C31;&#x653E;&#x5F03;&#x4E86;&#x4F7F;&#x7528;windows&#x4E0B;&#x7684;docker daemon&#x7684;&#x65B9;&#x5F0F;&#x3002;
+&#x90A3;&#x4E48;&#x81EA;&#x7136;&#x5730;&#xFF0C;&#x53EF;&#x4EE5;&#xFF0C;&#x5728; virtualbox + vagrant + docker &#x6A21;&#x5F0F;&#x4E0B;&#xFF0C;&#x542F;&#x52A8;&#x4E00;&#x4E2A;vm&#xFF0C;&#x5B89;&#x88C5;&#x4E0A;docker, &#x8FDE;&#x63A5;&#x4E0A;&#x53BB;&#x4F7F;&#x7528;docker&#x5C31;&#x884C;&#x4E86;&#x3002;</p>
+<p><a href="https://www.cnblogs.com/xiaoliangge/p/9134585.html" target="_blank">https://www.cnblogs.com/xiaoliangge/p/9134585.html</a></p>
+<p>&#x524D;&#x7F6E;&#x6761;&#x4EF6;&#xFF0C;&#x6709;&#x5176;&#x5B83;&#x673A;&#x5668;&#x4E0A;&#xFF0C;&#x6709;&#x5F00;&#x542F; docker daemon &#x670D;&#x52A1;&#x63D0;&#x4F9B;&#x6210;&#x670D;&#x52A1;&#xFF0C;&#x4F9B;&#x5916;&#x90E8;&#x673A;&#x5668;&#x4F7F;&#x7528;&#x3002;
+&#x6240;&#x4EE5;&#xFF0C;&#x8FD9;&#x4E00;&#x6B65;&#xFF0C;&#x6700;&#x597D;&#x5728; &#x5B8C;&#x6210;&#x5B89;&#x88C5; virtualbox, vagrant &#x4E4B;&#x540E;&#x3002;</p>
+<pre class="language-"><code class="lang-bash">DESKTOP-APB1HCJ% <span class="token keyword">echo</span> <span class="token string">&quot;export DOCKER_HOST=tcp://192.168.168.164:2376&quot;</span> <span class="token operator">&gt;&gt;</span> ~/.bashrc <span class="token operator">&amp;&amp;</span> <span class="token function">source</span> ~/.bashrc
+DESKTOP-APB1HCJ% <span class="token keyword">echo</span> <span class="token string">&quot;export DOCKER_HOST=tcp://192.168.168.164:2376&quot;</span> <span class="token operator">&gt;&gt;</span> ~/.zshrc <span class="token operator">&amp;&amp;</span> <span class="token function">source</span> ~/.zshrc
+DESKTOP-APB1HCJ% docker <span class="token function">ps</span>
+DESKTOP-APB1HCJ% <span class="token function">sudo</span> docker run hello-world
+</code></pre>
+<h4 id="python2">python2</h4>
+<pre class="language-"><code>sudo apt install python-minimal -y
+</code></pre><h4 id="pip">pip</h4>
+<h4 id="anaconda2-anaconda3">anaconda2, anaconda3</h4>
+<h5 id="&#x4F9D;&#x8D56;">&#x4F9D;&#x8D56;</h5>
+<p>&#x4F1A;&#x4F9D;&#x8D56;&#x4E8E;  &#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5B89;&#x88C5;&#xFF0C;&#x5219;&#x4F1A;&#x62A5;&#x4E0B;&#x9762;&#x9519;&#x8BEF;&#xFF1A;</p>
+<pre class="language-"><code>[/mnt/c/Users/a/anaconda2] &gt;&gt;&gt; /mnt/c/Users/a/anaconda2wslubuntu16/
+PREFIX=/mnt/c/Users/a/anaconda2wslubuntu16
+installing: python-2.7.16-h9bab390_0 ...
+Python 2.7.16 :: Anaconda, Inc.
+installing: conda-env-2.6.0-1 ...
+installing: blas-1.0-mkl ...
+installing: ca-certificates-2019.1.23-0 ...
+installing: intel-openmp-2019.3-199 ...
+installing: libgcc-ng-8.2.0-hdf63c60_1 ...
+installing: libgfortran-ng-7.3.0-hdf63c60_0 ...
+installing: libstdcxx-ng-8.2.0-hdf63c60_1 ...
+installing: bzip2-1.0.6-h14c3975_5 ...
+installing: expat-2.2.6-he6710b0_0 ...
+installing: fribidi-1.0.5-h7b6447c_0 ...
+installing: gmp-6.1.2-h6c8ec71_1 ...
+installing: graphite2-1.3.13-h23475e2_0 ...
+installing: icu-58.2-h9c2bf20_1 ...
+installing: jbig-2.1-hdba287a_0 ...
+installing: jpeg-9b-h024ee3a_2 ...
+installing: libffi-3.2.1-hd88cf55_4 ...
+installing: liblief-0.9.0-h7725739_2 ...
+installing: libsodium-1.0.16-h1bed415_0 ...
+installing: libtool-2.4.6-h7b6447c_5 ...
+installing: libuuid-1.0.3-h1bed415_2 ...
+installing: libxcb-1.13-h1bed415_1 ...
+installing: lz4-c-1.8.1.2-h14c3975_0 ...
+installing: lzo-2.10-h49e0be7_2 ...
+installing: mkl-2019.3-199 ...
+installing: ncurses-6.1-he6710b0_1 ...
+Traceback (most recent call last):
+  File &quot;/mnt/c/Users/a/anaconda2wslubuntu16/pkgs/.install.py&quot;, line 599, in <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>module</span><span class="token punctuation">&gt;</span></span>
+    main()
+  File &quot;/mnt/c/Users/a/anaconda2wslubuntu16/pkgs/.install.py&quot;, line 581, in main
+    link_dist(opts.link_dist)
+  File &quot;/mnt/c/Users/a/anaconda2wslubuntu16/pkgs/.install.py&quot;, line 456, in link_dist
+    link(prefix, dist, linktype)
+  File &quot;/mnt/c/Users/a/anaconda2wslubuntu16/pkgs/.install.py&quot;, line 345, in link
+    raise Exception(&quot;dst exists: %r&quot; % dst)
+Exception: dst exists: &apos;/mnt/c/Users/a/anaconda2wslubuntu16/share/terminfo/e/eterm&apos;
+&#x279C;  Downloads git:(master) &#x2717;
+</code></pre><!-- 使用 清华镜像 下载 -->
+<!-- 安装 anaconda3 和 anaconda2 时，一路默认设置，不要修改 -->
+<h4 id="pyenv-pyenv-virtualenv">pyenv, pyenv-virtualenv</h4>
+<ul>
+<li><a href="https://github.com/pyenv/pyenv#installation" target="_blank">https://github.com/pyenv/pyenv#installation</a></li>
+<li><a href="https://eiu.app/post/python-pyenv-install-with-mac/" target="_blank">https://eiu.app/post/python-pyenv-install-with-mac/</a></li>
+</ul>
+<h4 id="nvm-nodejs">nvm, nodejs</h4>
+<p>&#x4F9D;&#x8D56;&#x4E8E; curl, zsh</p>
+<p><a href="https://eiuapp.github.io/post/nodejs-install/" target="_blank">https://eiuapp.github.io/post/nodejs-install/</a></p>
+<p>nodejs &#x7A0B;&#x5E8F;&#x53EF;&#x7528;&#x4EE5;&#x4E0B;&#x5305;</p>
+<ul>
+<li>cnpm</li>
+<li>pm2(&#x7528;&#x914D;&#x7F6E;&#x542F;&#x52A8;&#x6587;&#x4EF6;&#x7684;&#x65B9;&#x5F0F;&#x7BA1;&#x7406;)</li>
+<li>eslint</li>
+<li>js-beautify</li>
+<li>anywhere</li>
+</ul>
+<h4 id="gitbook">gitbook</h4>
+<p>&#x4F9D;&#x8D56;&#x4E8E; nodejs</p>
+<pre class="language-"><code class="lang-bash"><span class="token function">npm</span> <span class="token function">install</span> -g gitbook gitbook-cli
+</code></pre>
+<h4 id="gvm-golang">gvm, golang</h4>
+<h4 id="rvm-ruby">rvm, ruby</h4>
+<h5 id="install-rvm">install rvm</h5>
+<pre class="language-"><code class="lang-bash"><span class="token function">which</span> gpg2
+<span class="token function">sudo</span> <span class="token function">apt-get</span> <span class="token function">install</span> gnupg2 -y
+gpg2 --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+<span class="token function">curl</span> -sSL https://get.rvm.io <span class="token operator">|</span> <span class="token function">bash</span> -s stable --rails
+<span class="token comment"># &#x6216;&#x8005; curl -L https://get.rvm.io | bash -s stable</span>
+<span class="token keyword">echo</span> <span class="token string">&apos;source ~/.rvm/scripts/rvm&apos;</span> <span class="token operator">&gt;&gt;</span> ~/.zshrc
+<span class="token comment"># &#x6216;&#x8005; echo &apos;source ~/.rvm/scripts/rvm&apos; &gt;&gt; ~/.bashrc</span>
+</code></pre>
+<h4 id="emacs-spacemacs">emacs, spacemacs</h4>
+<p>&#x4E3A;&#x4EC0;&#x4E48;&#x8FD8;&#x8981;&#x5728; wsl &#x4E2D;&#x5B89;&#x88C5; spacemacs?
+&#x56E0;&#x4E3A;&#x6211;&#x60F3;&#x5728;spacemacs&#x4E2D;&#x4F53;&#x9A8C;&#x4E00;&#x4E0B;zsh&#xFF0C;&#x8FD9;&#x6837;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x628A;eshell&#x4EE3;&#x66FF;&#x6389;&#x3002;
+&#x5728;windows10&#x4E0B;&#x7684;spacemacs&#xFF0C;&#x597D;&#x50CF;&#x627E;&#x4E0D;&#x5230; wsl&#x7684;bash.exe
+&#x6216;&#x8005;&#x8C01;&#x80FD;&#x505A;&#x5230; </p>
+<ul>
+<li>windows10 + spacemacs + zsh(wsl)</li>
+<li>windows10 + spacemacs + bash(wsl)</li>
+</ul>
+<p>&#x8FD9;&#x6837;&#x7684;&#x7EC4;&#x5408;&#x5462;&#xFF1F;&#x8C01;&#x77E5;&#x9053;&#x7684;&#xFF0C;&#x8BF7;&#x8BA9;&#x6211;&#x77E5;&#x9053;&#x3002;</p>
+<p><a href="https://eiuapp.github.io/cheatsheets/" target="_blank">https://eiuapp.github.io/cheatsheets/</a></p>
+<pre class="language-"><code>C:\Users\a&gt;where python
+C:\Program Files\soft\emacs-26.1-x86_64\bin\python.exe
+
+C:\Users\a&gt;
+</code></pre><h5 id="snippets">snippets</h5>
+<pre class="language-"><code class="lang-bash"><span class="token function">git</span> submodule update --init --recursive
+</code></pre>
+<h4 id="yarn">yarn</h4>
+<p><a href="https://yarnpkg.com/en/docs/install#debian-stable" target="_blank">https://yarnpkg.com/en/docs/install#debian-stable</a></p>
+<footer class="page-footer"><span class="copyright"><p><a href="https://github.com/eiuapp/ide-win10-tl" target="_blank">Win10 IDE&#x5B9E;&#x8DF5;&#x6307;&#x5357;</a> | <a href="https://github.com/eiuapp/ide-win10-tl" target="_blank">Win10 IDE&#x5B9E;&#x8DF5;&#x6307;&#x5357;</a></p><p><a href="https://res.cloudinary.com/dmtixvmgt/image/upload/v1539022273/wechat-qrcode_cml5dm.jpg" data-lightbox="2fd927ee-fa64-4eca-8ed5-6bd72b573a3c" target="_blank">&#x70B9;&#x51FB;&#x5173;&#x6CE8;&#x3010;servicemesher&#x3011;&#x516C;&#x4F17;&#x53F7;&#x56DE;&#x590D;&#x3010;&#x52A0;&#x7FA4;&#x3011;&#x52A0;&#x5165;&#x5B66;&#x4E60;&#x7FA4;</a> | </p>Copyright &#xA9; <a href="https://eiuapp.github.io" target="_blank">eiuapp.github.io</a> 2017-2019 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification"> Updated at 
+2019-05-08 10:44:47
+</span></footer></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 前言">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"软件安装顺序","level":"2.1","depth":1,"previous":{"title":"前言","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","codesnippet","splitter","page-toc-button","editlink","back-to-top-button","-lunr","-search","search-plus","github-buttons@2.1.0","favicon@^0.0.2","tbfed-pagefooter@^0.0.1","3-ba","theme-default","-highlight","prism","prism-themes","sitemap-general","lightbox","adsense","ga","disqus"],"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"<p><a href=https://github.com/eiuapp/ide-win10-tl>Win10 IDE实践指南</a> | <a href=https://github.com/eiuapp/ide-win10-tl>Win10 IDE实践指南</a></p><p><a href=https://res.cloudinary.com/dmtixvmgt/image/upload/v1539022273/wechat-qrcode_cml5dm.jpg data-lightbox=2fd927ee-fa64-4eca-8ed5-6bd72b573a3c>点击关注【servicemesher】公众号回复【加群】加入学习群</a> | </p>Copyright © <a href=https://eiuapp.github.io>eiuapp.github.io</a> 2017-2019","modify_label":" Updated at ","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"lang":{"shell":"bash"},"css":["prism-themes/themes/prism-ghcolors.css"]},"disqus":{"useIdentifier":false,"shortName":"whoami"},"github":{"url":"https://github.com/eiuapp/ide-win10-tl"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/eiuapp/ide-win10-tl/blob/master/"},"splitter":{},"adsense":{"client":"ca-pub-4029167986768912","slot":"2445941692","format":"auto","element":".page-inner section","position":"bottom"},"codesnippet":{},"sitemap-general":{"prefix":"https://eiuapp.github.io/ide-win10-tl/"},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"lightbox":{"jquery":true},"page-toc-button":{},"back-to-top-button":{},"prism-themes":{},"github-buttons":{"repo":"eiuapp/ide-win10-tl","types":["star"],"size":"small"},"3-ba":{"configuration":"auto","token":"11f7d254cfa4e0ca44b175c66d379ecc"},"ga":{"configuration":"auto","token":"UA-93485976-1"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"search-plus":{}},"theme":"default","author":"eiuapp","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Win10 IDE Handbook - Win10 IDE 实践指南 by eiuapp","language":"zh-hans","links":{"sidebar":{"Win10 IDE Handbook":"https://eiuapp.github.io/ide-win10-tl"}},"gitbook":"*","description":"Win10 IDE Handbook - Win10 IDE 实践指南 2019年 by eiuapp "},"file":{"path":"post/software-install.md","mtime":"2019-05-08T10:44:47.303Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-05-08T10:45:41.072Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/jquery.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-adsense/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
