@@ -71,6 +71,9 @@ https://www.xunlei.com/
 #### virtualbox ####
 
 安装完成后,第一时间,修改 管理/全局设置/默认虚拟电脑位置 为电脑的非C盘文件夹, 如 D:\ProgramFiles\VirtualBoxVMs
+
+记住,所有的vm需要用VAGRANT管理哟
+
 #### vagrant ####
 ##### windows下切换vagrant_home目录 #####
 
@@ -456,6 +459,15 @@ Exception: dst exists: '/mnt/c/Users/a/anaconda2wslubuntu16/share/terminfo/e/ete
 
 https://eiuapp.github.io/post/nodejs-install/
 
+nodejs 程序可用以下包
+
+- cnpm
+- pm2(用配置启动文件的方式管理)
+- eslint
+- js-beautify
+- anywhere
+
+
 #### gitbook ####
 
 依赖于 nodejs
@@ -506,3 +518,8 @@ C:\Users\a>
 ```bash
 git submodule update --init --recursive
 ```
+
+#### yarn ####
+
+https://yarnpkg.com/en/docs/install#debian-stable
+
