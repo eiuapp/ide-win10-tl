@@ -285,7 +285,9 @@ C:\Windows\System32\wsl.exe
 
 安装 anaconda3 和 anaconda2 时，一路默认设置，不要修改
 
-#### emacs, spacemacs ####
+#### (跳过, 不要安装)evm, emacs, spacemacs ####
+
+**因为后面要在 wsl 中安装, 所以跳过**
 
 https://eiuapp.github.io/post/emacs-install-with-win10/
 
@@ -492,7 +494,23 @@ echo 'source ~/.rvm/scripts/rvm' >> ~/.zshrc
 ```
  
 
-#### emacs, spacemacs ####
+#### evm, emacs, spacemacs ####
+
+先要安装 [emv](https://github.com/rejeep/evm)
+
+https://eiuapp.github.io/post/emacs-install-with-win10/
+
+https://eiuapp.github.io/post/spacemacs-install-with-win10/
+
+安装完成后，会自动安装了一个python
+
+```
+C:\Users\a>where python
+C:\Program Files\soft\emacs-26.1-x86_64\bin\python.exe
+
+C:\Users\a>
+```
+
 
 为什么还要在 wsl 中安装 spacemacs?
 因为我想在spacemacs中体验一下zsh，这样，就可以直接把eshell代替掉。
